@@ -14,13 +14,13 @@ body {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-family: "Arial";
+    
 }
 
 .phone a {
     font-size: 16px;
     color: #fff;
-    font-family: "Arial";
+   
     text-decoration: none;
 }
 
@@ -28,61 +28,55 @@ body {
     background-color: #f4d633;
 }
 
-body {
-    font-family: "Arial", sans-serif;
-    color: #fff;
-}
 
-.menu a {
-    font-family: "Arial", sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 30px;
-}
-
-.phone a {
-    font-family: "Arial", sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-}
-
-.main-info {
-    font-family: "Arial", sans-serif;
+.main-info p {
+   font-size: 16px;
+    color: #ffffff;
+    font-style: italic;
 }
 
 .main-info h1 {
-    font-size: 36px;
-    font-weight: bold;
+    width: 687px;
+    height: 156px;
+    font-size: 48px;
     text-transform: uppercase;
-    line-height: 1.2;
-}
+    color: #fff;
+    font-weight: 800;
+ }
 
 .main-info p {
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 1.5;
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+  
 }
+    
 
 .main-info a {
-    text-decoration: none;
-    font-size: 16px;
+   font-size: 18px;
+    text-transform: uppercase;
+    color: #f4d633;
     font-weight: bold;
-    font-family: "Arial",sans-serif; 
+     text-decoration: none;
 }
 
-.footer {
-    font-family: "Arial", sans-serif;
+.main-info span {
+    font-size: 20px;
+    color: #fff;
     font-weight: bold;
+  
 }
 
-.footer .schedule p {
-    font-size: 16px;
+ .schedule p {
+  font-size: 16px;
+    line-height: 14px;
+    color: #1e3c6f;
     font-weight: bold;
 }
 
 .footer-logo p {
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: normal;
+    font-size: 12px;
+color: #204075;
+font-family: "Arial";
+text-align: left;
 }
