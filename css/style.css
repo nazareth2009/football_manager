@@ -2,9 +2,10 @@ body {
      font-family: "Arial";
 }
 
-
 .main {
-    background: url(../img/big-ball.png) no-repeat right bottom, radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
+    background-image: url(../img/big-ball.png), radial-gradient(circle at center, #1d3b6e 100%);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .menu a {
@@ -17,15 +18,17 @@ body {
     
 }
 
+
+.footer {
+    background-color: #f4d633;
+}
+
+
 .phone a {
     font-size: 16px;
     color: #fff;
    
     text-decoration: none;
-}
-
-.footer {
-    background-color: #f4d633;
 }
 
 
