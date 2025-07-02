@@ -4,8 +4,7 @@ body {
 
 
 .main {
-    background: url(../img/big-ball.png) no-repeat right bottom, 
-    
+    background: url(../img/big-ball.png) no-repeat right bottom, radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
 }
 
 .menu a {
