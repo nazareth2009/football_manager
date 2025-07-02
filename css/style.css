@@ -1,0 +1,97 @@
+body {
+     font-family: "Arial";
+}
+
+
+.main {
+    background: url(../img/big-ball.png) no-repeat right bottom, radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
+}
+
+.menu a {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.phone a {
+    font-size: 16px;
+    color: #fff;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #f4d633;
+}
+
+.main-info {
+    color: #fff;
+    padding: 60px 0;
+    font-family: "Arial";
+}
+
+.main-info h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.main-info p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.main-info a {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #f4d633;
+    color: #f4d633;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.main-info a:hover {
+    background-color: #f4d633;
+    color: #1d3b6e;
+}
+
+.footer {
+    padding: 30px 0;
+    font-family: "Arial";
+    font-weight: bold;
+    color: #1d3b6e;
+}
+
+.footer .schedule p {
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.apps ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.apps img {
+    width: 24px;
+    height: 24px;
+}
+
