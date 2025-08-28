@@ -11,7 +11,7 @@ body {
 
 
 .main {
-    background: url(../img/big-ball.png) no-repeat right bottom -70px, radial-gradient(circle at center,#1e3c6f 0%,#204075 1%, #1d3b6e 100%);
+    background: url(../img/big-ball.png) no-repeat right bottom -70px, radial-gradient(circle at center,#34619d 0%,#34619d 1%, #1d3b6e 100%);
 }
 
 .header {
@@ -236,8 +236,8 @@ p.submit-block a:hover {
 }
 
 .apps  li:hover > a {
-    transform: scale(1.05);
-    filter: drop-shadow(5px 20px rgba(0, 0, 0,.3))
+    background: white;
+    border-radius: 100%;
  
 }
 
