@@ -11,7 +11,7 @@ body {
 
 
 .main {
-    background: url(../img/big-ball.png) no-repeat right bottom -70px, radial-gradient(circle at center, #1d3b6e 100%);
+    background: url(../img/big-ball.png) no-repeat right bottom -70px, radial-gradient(circle at center,#1e3c6f 0%,#204075 1%, #1d3b6e 100%);
 }
 
 .header {
@@ -37,7 +37,6 @@ body {
 }
 
 .logo div {
-     margin-right: 8px;
      text-align: right;
 }
 
