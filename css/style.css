@@ -18,6 +18,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    align-items: center;
+    
 }
 
 
@@ -25,6 +27,13 @@ body {
     display: flex;
     align-items: center;
     text-decoration: none;
+}
+
+.logo:hover svg {
+        transform: rotate(360deg);
+        margin-left: 50px;
+        transition: all 1s ease;
+
 }
 
 .logo div {
@@ -52,28 +61,56 @@ body {
 
 .menu ul {
     display: flex;
-    column-gap: 30px;
+    column-gap: 10px;
     list-style: none;
     margin: 0;
-    padding: 0 55px;
+    padding: 5px 45px;
     border-radius: 20px;
     background-color: rgba(172, 172, 170, 0.3)
 }
 
 .menu a {
+    padding: 8px 10px;
     font-size: 14px;
     line-height: 30px;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    transition: all .5s ease;
 }
 
+.menu li:hover > a {
+    color: #f4d633;
+    border-radius: 20px;
+    background-color: rgba(172, 172, 170, 0.3)
+}
+
+.phone {
+    position: relative;
+    padding-left: 35px;
+}
+
+.phone img {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 13px);
+   
+}
 
 .phone a {
     font-size: 16px;
     color: #fff;
     text-decoration: none;
+}
+
+.phone a:hover {
+        color: #f4d633;
+        text-decoration: underline;
+        transition: all .5s ease;
+
+
+
 }
 
 .main-info {
@@ -142,6 +179,20 @@ p.submit-block {
     margin-bottom: 30px;
 }
 
+p.submit-block a {
+    background: linear-gradient( -45deg, transparent 40%, #f4d633 50%);
+    background-size: 500%;
+    background-position: 100% 0;
+    transition: all 1s ease;
+}
+
+
+p.submit-block a:hover {
+    color: #1d3b6e;
+    background-position: 0 0;
+    box-shadow: 3px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
 
 .footer {
     background-color: #f4d633;
@@ -169,15 +220,12 @@ p.submit-block {
     color: #204075;
 }
 
-
-.footer-logo p {
-    font-size: 12px;
-    color: #204075;
-    text-align: right;
+.footer-logo svg {
+    fill: #204075;
 }
 
 .footer-logo {
-    color: #204075;
+    fill: #204075;
 }
 
 .apps ul {
@@ -187,3 +235,19 @@ p.submit-block {
     margin: 0;
     padding-left: 0;
 }
+
+.apps  li:hover > a {
+    transform: scale(1.05);
+    filter: drop-shadow(5px 20px rgba(0, 0, 0,.3))
+ 
+}
+
+
+.sinse {
+    display: block;
+    font-size: 12px;
+    color: #204075;
+    text-align: right;
+}
+
+
