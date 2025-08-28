@@ -38,6 +38,7 @@ body {
 
 .logo div {
      text-align: right;
+     margin-right: 8px;
 }
 
 
@@ -209,9 +210,11 @@ p.submit-block a:hover {
 
 
  .schedule p {
+    margin: 10px;
     line-height: 14px;
     color: #1e3c6f;
     font-weight: bold;
+
 }
 
 .footer-logo strong,
@@ -221,11 +224,10 @@ p.submit-block a:hover {
 
 .footer-logo svg {
     fill: #204075;
+    margin: -8px;
 }
 
-.footer-logo {
-    fill: #204075;
-}
+
 
 .apps ul {
     display: flex;
@@ -235,11 +237,32 @@ p.submit-block a:hover {
     padding-left: 0;
 }
 
-.apps  li:hover > a {
-    background: white;
+.apps a {
+    position: relative;
+    z-index: 1;
+}
+
+.apps  li:hover > a:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 40%;
+    bottom: 5px;
+    left: 6px;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 100%;
+    z-index: -1;
+    filter: blur(2px);
  
 }
+
+.apps  li > a:before {
+    transition: all 1.3s ease;
+     content: "";
+     height: 0;
+     left: -10px;
+     width: 100%;
+} 
 
 
 .sinse {
