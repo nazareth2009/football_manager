@@ -268,7 +268,7 @@ p.submit-block a:hover {
     padding-right: 0;
 }
 
-@media (min-width: 784px) {
+@media (min-width: 800px) {
   .main {
     background: 
       url(../img/big-ball.png) no-repeat right bottom -70px,
@@ -333,6 +333,62 @@ p.submit-block a:hover {
 
 
 }
+
+/* === Мобільний стиль (до 799px) === */
+body {
+  background: #1a4b8a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.burger .line {
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.burger:hover .line {
+  background: #f4d633;
+}
+
+.menu {
+  display: none;
+  margin-top: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  margin: 10px 0;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #f4d633;
+}
+
+
+
+
 
 
 
